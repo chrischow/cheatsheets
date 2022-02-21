@@ -15,6 +15,7 @@ Coding is a perishable skill - there is just too much to remember. We also don't
 
 This repo serves as that documentation.
 
+<br>
 <p align="center">
     <span class="fs-5 text-center">
         <a href="https://github.com/chrischow/cheatsheets" class="btn btn-purple" target="_blank">
