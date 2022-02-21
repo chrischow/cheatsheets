@@ -79,7 +79,7 @@ git rm -r --cached <folders/files>
 Commit the changes as per normal:
 
 ```bash
-git add .   # Not sure if you need this
+git add .
 git commit -m "Removed files in .gitignore"
 git push origin main
 ```
