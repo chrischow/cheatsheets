@@ -8,6 +8,9 @@ parent: Conda
 # Managing Environments
 {: .no_toc }
 
+1. TOC
+{:toc}
+
 ## Creating Environments
 
 ### Empty Environment

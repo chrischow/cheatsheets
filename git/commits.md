@@ -8,6 +8,9 @@ parent: Git
 # Commits
 {: .no_toc }
 
+1. TOC
+{:toc}
+
 ## Making Commits
 1. It is a good practice to check what files in your local repo were changed. This gives you the opportunity to think through how you can group the changes logically.
 

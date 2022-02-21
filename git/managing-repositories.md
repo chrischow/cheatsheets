@@ -61,10 +61,10 @@ In addition, if the repository is linked to a remote repository, you will need t
 
 ## Important Documents
 
-### README
+### README File
 It's always a good practice to add a README to explain what the repository contains, especially if the code is to be used by others. **Installation** and **usage** are an absolute must to help users get started. An **impetus/context** section is optional, but useful to paint the context.
 
-### `.gitignore`
+### `.gitignore` File
 Unless your project involves 100% public data, you will need to avoid pushing credentials to GitHub. Hence, it's best to create this file upfront to prepare for that possibility. It is dangerous to commit any sensitive files **even once**, because that file would exist in the repo's history.
 
 ## Managing Files to be Ignored
