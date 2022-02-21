@@ -7,4 +7,4 @@ permalink: /git
 ---
 
 # Git
-We all know what Git is for.
+We all know what this is for.
