@@ -1,0 +1,10 @@
+title: Cheatsheets
+description: "Cheatsheets for Data Science"
+remote_theme: pmarsceill/just-the-docs
+permalink: pretty
+
+search_enabled: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2022 Chris Chow."
