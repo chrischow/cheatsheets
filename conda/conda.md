@@ -10,5 +10,5 @@ permalink: /conda
 Hmm..
 
 <p align="center">
-    <img src="../images/conda.jpg">
+    <img src="https://raw.githubusercontent.com/chrischow/cheatsheets/main/images/conda.jpg">
 </p>
