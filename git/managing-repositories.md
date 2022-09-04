@@ -59,6 +59,18 @@ In addition, if the repository is linked to a remote repository, you will need t
 3. Type in the repo name.
 4. Wave goodbye!
 
+### Renaming a Repository
+1. Rename the repository on GitHub from the **Settings** page.
+2. Set the new URL e.g.
+
+    ```bash
+    cd <repo-directory>
+    git remote set-url origin https://github.com/chrischow/rdo-data-catalogue.git
+
+    ```
+
+3. You're done!
+
 ## Important Documents
 
 ### README File
