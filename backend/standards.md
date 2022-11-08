@@ -33,3 +33,16 @@ Popular port numbers:
 
 
 See [this Wiki entry](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) for the full list of TCP and UDP port numbers.
+
+## Status Codes
+Primary classes:
+
+| Code Range | Response |
+| :--------: | :------- |
+| 100-199 | Informational responses |
+| 200-299 | Successful responses |
+| 300-399 | Redirection messages |
+| 400-499 | Client error responses |
+| 500-599 | Server error responses |
+
+See the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) for the detailed list of status codes.
