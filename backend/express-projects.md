@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Express Boilerplate
+title: Express Projects
 nav_order: 2
 parent: Backend Development
 ---
 
-# Boilerplate Template
+# Express Projects
 {: .no_toc }
 
 1. TOC
@@ -64,17 +64,17 @@ This template is for an Express app built in TypeScript.
 └── routes              # Routers for given URL prefixes
 ```
 
-### `index.ts` / `app.ts`
-The main entry point for the app. 
+### Entrypoint
+The main entry point for the app. Usually called `index.ts` or `app.ts`.
 
 - Initialises the app
 - Registers [middleware](#middleware) and places them in the right order (relative to each other and the routes)
 - Registers the [routes](#routes)
-- Connects to the database using the function from [DB](#db)
+- Connects to the database using the function(s) from [DB](#db)
 - Starts the server after successful connection to the database
 
 ### DB
-The `db` folder contains the function(s) to connect to the database(s). The function(s) is(are) exported, and called in the [entrypoint](#indexts--appts).
+The `db` folder contains the function(s) to connect to the database(s). The function(s) is(are) exported, and called in the [entrypoint](#entrypoint).
 
 ### Controllers
 Functions encapsulating the logic used for each route.
@@ -89,7 +89,7 @@ Middleware functions that receive a request, process data, and call the next fun
 
 - Separate into several files - one per category of middleware
 - Each middleware function takes `request`, `response` and `next` objects/functions as arguments, and either (1) calls `next()` or (2) returns a final response
-- Exports middleware functions, which are called in the [entrypoint](#indexts--appts)
+- Exports middleware functions, which are called in the [entrypoint](#entrypoint)
 
 ### Models
 Object models for all entities in separate files:
@@ -108,7 +108,7 @@ Imports associated controllers for logic at each endpoint.
 - Routes are defined in chains (e.g. `router.route('/').get(<controller 1>).post(<controller 2>`)
 - Routes are uniquely defined by URI prefix and HTTP method
 - Logic is taken from [controllers](#controllers)
-- Exports routers, which are called in the [entrypoint](#indexts--appts)
+- Exports routers, which are called in the [entrypoint](#entrypoint)
 
 ## Generic Workflow
 1. Design the entities you'll need to manage
