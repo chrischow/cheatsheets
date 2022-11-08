@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Cheatsheets for Data Science"
+description: "Cheatsheets for Data Science and Software Engineering"
 permalink: /
 ---
 
