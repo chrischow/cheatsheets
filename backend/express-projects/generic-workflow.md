@@ -50,6 +50,8 @@ flowchart TD;
   ImproveRoutes --> Test
 ```
 
+## Description of Steps
+
 ### Define the entities for the problem
 Do this based on your understanding of the business problem, process and the entities involved.
 

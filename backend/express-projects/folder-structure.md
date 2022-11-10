@@ -22,8 +22,6 @@ nav_order: 2
 │   ├── db                  # Database functions: connect
 │   ├── errors              # Custom errors
 │   ├── middleware          # Key functions for processing requests and returning responses
-│   │   ├── begin-with-the-crazy-ideas. Textile
-│   │   └── on-simplicity-in-technology. Markdown
 │   ├── models              # Object models
 │   ├── public
 │   │   ├── index.html
