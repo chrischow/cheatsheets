@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Folder Structure
-nav_order: 1
+title: Express Folder Structure
 parent: Express Projects
+grand_parent: Backend Development
+nav_order: 1
 ---
 
 ## Folder Structure

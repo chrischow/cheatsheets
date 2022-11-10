@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Adjustments for TypeScript
-nav_order: 2
 parent: Express Projects
+grand_parent: Backend Development
+nav_order: 2
 ---
 
 # Adjustments for TypeScript
