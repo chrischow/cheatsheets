@@ -7,4 +7,7 @@ search_enabled: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
+mermaid:
+  version: "9.1.3"
+
 footer_content: "Copyright &copy; 2022 Chris Chow."

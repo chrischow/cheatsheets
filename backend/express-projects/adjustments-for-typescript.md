@@ -3,7 +3,7 @@ layout: default
 title: Adjustments for TypeScript
 parent: Express Projects
 grand_parent: Backend Development
-nav_order: 2
+nav_order: 3
 ---
 
 # Adjustments for TypeScript
@@ -43,7 +43,7 @@ The way to do this in TypeScript is to extend the `Request` type:
 
 4. Add the `./types` (or `./src/types`) folder into the `typeRoots` option in `tsconfig.json`.
 
-## Working Mongoose Model Methods
+## Working with Mongoose Model Methods
 It is possible to define custom methods on Mongoose models in vanilla JavaScript. However, once again, you can only do this in TypeScript by creating interfaces for your model methods.
 
 Process:
