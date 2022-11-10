@@ -3,6 +3,7 @@ layout: default
 title: Express Projects
 nav_order: 2
 parent: Backend Development
+has_children: true
 ---
 
 # Express Projects
@@ -10,50 +11,6 @@ parent: Backend Development
 
 1. TOC
 {:toc}
-
-## `package.json`
-This template is for an Express app built in TypeScript.
-
-- Express
-- Mongoose
-
-```json
-{
-  "name": "project-name",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-async-errors": "^3.1.1",
-    "mongoose": "^6.7.2"
-  },
-  "devDependencies": {
-    "@types/express": "^4.17.14",
-    "@types/node": "^18.11.9",
-    "concurrently": "^7.5.0",
-    "nodemon": "^2.0.20"
-  }
-}
-
-```
-
-Do the following as part of the setup for a TypeScript app:
-
-- Generate `tsconfig` using `npx tsc --init`
-- Enable `tsconfig`'s `outDir` setting and set it to `./dist` - this compiles your TypeScript code in that folder and runs `index.js` from there
-- Change the scripts in `package.json`
-
 
 
 ## Generic Workflow
