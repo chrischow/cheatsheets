@@ -6,13 +6,13 @@ grand_parent: Backend Development
 nav_order: 2
 ---
 
-## Folder Structure
+# Folder Structure
 {: .no_toc }
 
 1. TOC
 {:toc}
 
-### Overview
+## Overview
 
 ```
 .
@@ -36,6 +36,22 @@ nav_order: 2
 ├── package-lock.json
 └── tsconfig.json
 ```
+
+## Relationships
+
+```mermaid
+graph LR
+  Entrypoint --Connects to --> DB
+  Entrypoint --Registers--> Routes
+  Models --Call--> DB
+  Entrypoint --Registers--> Middleware
+  Middleware --Throw--> Errors
+  Routes --Call--> Controllers
+  Controllers --Throw--> Errors
+  Controllers --Use--> Models
+```
+
+## Components
 
 ### Entrypoint
 The main entry point for the app. Usually called `index.ts` or `app.ts`.
