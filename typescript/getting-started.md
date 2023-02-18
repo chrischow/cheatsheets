@@ -11,15 +11,23 @@ parent: TypeScript
 1. TOC
 {:toc}
 
-## Pre-requisites
-You should have TypeScript (`tsc`) and Nodemon (`nodemon`) installed globally:
+
+## Starting a Node.js Project with TypeScript
+We assume that you're using a Node.js project. To set up a Node.js project with TypeScript:
+
+- `nodemon`: For re-running your `index.js` script
+- `tsc`: TypeScript
+- `@types/node`: Types for node
 
 ```bash
-npm install -g tsc nodemon
+# Initialise project
+npm init
+
+# Install dev dependencies
+npm install --save-dev nodemon tsc @types/node
 ```
 
-## Starting a TS Project
-Create a TS project in the folder using the command below. It creates a `tsconfig.json` file.
+Initialise TypeScript using the command below. It creates a `tsconfig.json` file.
 
 ```bash
 npx tsc --init
@@ -31,25 +39,7 @@ Then, create a `dist` folder, enable the `outDir` property in `tsconfig.json`, a
 "outDir": "./dist"
 ```
 
-Then, create your entrypoint `index.ts`. To build, run:
-
-```bash
-npx tsc
-```
-
-This will compile your files and put them in `./dist`. You can now run the compiled JS file with:
-
-```bash
-npx ./dist/index.js
-```
-
-## Running TS Code with Node
-You'll need to create a Node.js project, and install the types for TypeScript:
-
-```bash
-npm init
-npm install --save-dev @types/node
-```
+This will let TypeScript know to compile your files and put them in `./dist`.
 
 Then, add a run script to `package.json` to watch your TypeScript files, re-compile when changes are made to them, and re-run the compiled `index.js`:
 
