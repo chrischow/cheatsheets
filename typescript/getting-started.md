@@ -16,7 +16,7 @@ parent: TypeScript
 We assume that you're using a Node.js project. To set up a Node.js project with TypeScript:
 
 - `nodemon`: For re-running your `index.js` script
-- `tsc`: TypeScript
+- `typescript`: TypeScript
 - `@types/node`: Types for node
 
 ```bash
